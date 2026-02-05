@@ -1,0 +1,135 @@
+[
+    {
+        "id": "pm-kisan-001",
+        "name": "PM-Kisan Samman Nidhi",
+        "name_hi": "पीएम-किसान सम्मान निधि",
+        "description": "Financial support for land-holding farmers to meet their financial needs.",
+        "category": [
+            "General",
+            "OBC",
+            "SC",
+            "ST"
+        ],
+        "gender": [
+            "Male",
+            "Female",
+            "Other"
+        ],
+        "state": "All India",
+        "eligibility": {
+            "income_limit": null,
+            "land_ownership": true,
+            "age_range": [
+                18,
+                100
+            ],
+            "requires_education": false
+        },
+        "documents": [
+            "Aadhaar",
+            "Land Record",
+            "Bank Passbook"
+        ],
+        "application_steps": [
+            "Visit PM-Kisan portal",
+            "Complete E-KYC",
+            "Wait for physical verification",
+            "Direct benefit transfer to bank account"
+        ],
+        "link": "https://pmkisan.gov.in/"
+    },
+    {
+        "id": "mdm-001",
+        "name": "Mid Day Meal Scheme",
+        "name_hi": "मध्याह्न भोजन योजना",
+        "description": "Provision of free hot-cooked meals to students in government and government-aided schools.",
+        "category": [
+            "All"
+        ],
+        "gender": [
+            "All"
+        ],
+        "state": "All India",
+        "eligibility": {
+            "income_limit": null,
+            "enrolled_in_school": true,
+            "standard": [
+                1,
+                8
+            ]
+        },
+        "documents": [
+            "School Enrollment Letter"
+        ],
+        "application_steps": [
+            "Automatic enrollment for students in eligible schools",
+            "Contact school headmaster for details"
+        ],
+        "link": "https://education.gov.in/mid-day-meal"
+    },
+    {
+        "id": "nsp-post-matric-001",
+        "name": "Post-Matric Scholarship for OBC Students",
+        "name_hi": "ओबीसी छात्रों के लिए पोस्ट-मैट्रिक छात्रवृत्ति",
+        "description": "Financial assistance to students belonging to OBC category for pursuing post-matriculation courses.",
+        "category": [
+            "OBC"
+        ],
+        "gender": [
+            "All"
+        ],
+        "state": "All India",
+        "eligibility": {
+            "income_limit": 250000,
+            "enrolled_in_school": true,
+            "standard": [
+                11,
+                20
+            ]
+        },
+        "documents": [
+            "Caste Certificate",
+            "Income Certificate",
+            "Previous Year Marksheet",
+            "Fee Receipt"
+        ],
+        "application_steps": [
+            "Register on National Scholarship Portal (NSP)",
+            "Upload required documents",
+            "Institute verification",
+            "District/State level verification",
+            "Direct benefit transfer"
+        ],
+        "link": "https://scholarships.gov.in/"
+    },
+    {
+        "id": "ayushman-bharat-001",
+        "name": "Ayushman Bharat (PM-JAY)",
+        "name_hi": "आयुष्मान भारत (पीएम-जये)",
+        "description": "Health insurance cover of up to ₹5 lakh per family per year for secondary and tertiary care hospitalization.",
+        "category": [
+            "SC",
+            "ST",
+            "Low Income"
+        ],
+        "gender": [
+            "All"
+        ],
+        "state": "All India",
+        "eligibility": {
+            "income_limit": 120000,
+            "socio_economic_status": "Deprived"
+        },
+        "documents": [
+            "Aadhaar Card",
+            "Ration Card"
+        ],
+        "application_steps": [
+            "Check name in SECC-2011 database",
+            "Visit empaneled hospital",
+            "Present Golden Card/Aadhaar",
+            "Cashless treatment"
+        ],
+        "link": "https://pmjay.gov.in/"
+    }
+]

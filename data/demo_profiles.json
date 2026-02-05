@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Ramesh Kumar",
+        "profile": {
+            "age": 42,
+            "income": 80000,
+            "state": "Bihar",
+            "category": "OBC",
+            "gender": "Male",
+            "occupation": "Farmer"
+        },
+        "expected_themes": [
+            "Farmer Support",
+            "Healthcare",
+            "Housing"
+        ]
+    },
+    {
+        "name": "Ananya Sharma",
+        "profile": {
+            "age": 19,
+            "income": 150000,
+            "state": "Maharashtra",
+            "category": "General",
+            "gender": "Female",
+            "education_requirement": "12th Pass"
+        },
+        "expected_themes": [
+            "Education Scholarships",
+            "Women Empowerment",
+            "Skill Development"
+        ]
+    },
+    {
+        "name": "Sunita Devi",
+        "profile": {
+            "age": 35,
+            "income": 50000,
+            "state": "Uttar Pradesh",
+            "category": "SC",
+            "gender": "Female",
+            "occupation": "Self-employed"
+        },
+        "expected_themes": [
+            "Women Empowerment",
+            "Self-employment",
+            "Healthcare"
+        ]
+    },
+    {
+        "name": "Vikram Singh",
+        "profile": {
+            "age": 10,
+            "income": 100000,
+            "state": "Rajasthan",
+            "category": "All India",
+            "gender": "Male",
+            "education_requirement": "School Student"
+        },
+        "expected_themes": [
+            "Education Scholarships",
+            "Digital Literacy"
+        ]
+    }
+]
